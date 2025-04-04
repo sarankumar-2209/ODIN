@@ -35,9 +35,6 @@
     "vite": "^5.4.2"
   }
 
-   "scripts": {
-    "vercel-build": "npm install --platform=linux --arch=x64 && npm run build"
-  }
   
 }
 
