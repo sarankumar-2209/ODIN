@@ -11,7 +11,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "start": "vite",
-    "vercel-build": "npm install --platform=linux --arch=x64 && vite build"
+    "vercel-build": "chmod -R +x node_modules/.bin && npm install --platform=linux --arch=x64 && vite build"
   },
   "dependencies": {
     "@tsparticles/engine": "^3.8.1",
